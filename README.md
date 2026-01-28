@@ -40,7 +40,7 @@ This project involves:
 ## 🧰 Tech Stack
 - SQL Server
 - SQL
-- ETL
+- ETL / ELT
 - Draw.io
 - Git & GitHub
 - CSV Data Sources
@@ -61,6 +61,112 @@ All tools and resources used in this project are free.
 - **[Notion Project Steps](https://www.notion.so/SQL-Data-Warehouse-Project-2f3c4d6ea0558038850edf138c21aa2b?source=copy_link):** Access to All Project Phases and Tasks.
 
 ---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+To run this project locally, you will need:
+
+- A SQL database management system:
+  - **SQL Server** (recommended)
+  - PostgreSQL (optional adaptation)
+  - MySQL (optional adaptation)
+- A database client such as:
+  - **SQL Server Management Studio (SSMS)**
+  - DBeaver
+  - Azure Data Studio
+
+---
+
+### Installation & Setup
+
+#### 1. Clone the repository
+```bash
+git clone https://github.com/AryanHooda-04/data-warehouse-project.git
+```
+#### 2. Database Setup
+
+- Install **SQL Server Express** (or SQL Server)
+- Open **SSMS** (or your preferred SQL client)
+- Create a new database for the project
+- Configure database connection credentials
+
+---
+
+#### 3. Data Ingestion (Bronze Layer)
+
+- Import the raw CSV datasets from the `datasets/` directory  
+- Load data into **Bronze layer tables** using scripts from:
+
+```text
+scripts/bronze/
+```
+This layer stores:
+
+- Raw source data
+- Unprocessed records
+- Source-aligned structures
+
+#### 4. Data Transformation (Silver Layer)
+
+- Execute transformation and cleaning scripts from:
+
+```text
+scripts/silver/
+```
+This layer performs:
+
+- Data cleansing  
+- Standardization  
+- Normalization  
+- Data quality validation  
+- Schema alignment  
+
+---
+
+#### 5. Analytical Modeling (Gold Layer)
+
+Run analytical modeling scripts from:
+
+```text
+scripts/gold/
+```
+
+This layer creates:
+
+- Fact tables  
+- Dimension tables  
+- Star schema models  
+- BI-ready analytical structures
+
+## 📊 Usage
+
+Once the pipeline is executed successfully:
+
+- Query **Gold layer tables** for analytics and reporting  
+- Run analytical SQL queries for:
+  - Customer behavior analysis  
+  - Product performance insights  
+  - Sales trend analysis  
+
+---
+
+The Gold layer can be used as a source for:
+
+- BI dashboards  
+- Reporting tools  
+- Analytics pipelines  
+- Decision-support systems  
+
+---
+
+This layered architecture enables:
+
+- Scalable analytics  
+- Clean data consumption  
+- BI-ready data access  
+- Enterprise-grade reporting workflows  
+
 
 ## 🚀 Project Requirements
 
