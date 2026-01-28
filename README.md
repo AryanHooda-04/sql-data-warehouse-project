@@ -31,7 +31,7 @@ This project involves:
 - SQL Development
 - Data Architecture
 - Data Engineering  
-- ETL Pipeline Developement
+- ETL Pipeline Development
 - Data Modeling  
 - Data Analytics  
 
