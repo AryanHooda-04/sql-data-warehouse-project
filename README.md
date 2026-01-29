@@ -82,7 +82,7 @@ To run this project locally, you will need:
 
 #### 1. Clone the repository
 ```bash
-git clone https://github.com/AryanHooda-04/data-warehouse-project.git
+git clone https://github.com/AryanHooda-04/sql-data-warehouse-project.git
 ```
 #### 2. Database Setup
 
